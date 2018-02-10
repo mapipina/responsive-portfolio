@@ -242,13 +242,72 @@ input[type=submit] {
 /* BEGINNING OF MEDIA QUERIES */
 
 @media only screen and (max-width: 980px) {
-
+  body {
+    width: 100%;
+  }
   
+  .main-section {
+    float: left;
+    width: 45%;
+    overflow: auto;
+    margin-left: 10%;
+  }
+
+  .auth-image {
+    float: none;
+  }
+
+  .sidebar {
+    float: left;
+    overflow: auto;
+    margin-left: 5%;
+  }
+
+  header {
+    position: static;
+  }
+
+  #logo {
+    margin-left: 10%;
+  }
+
+  nav {
+    margin-right: 12%;
+  }
+
 }
 
 /* TABLET */
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
+  body {
+    width: 100%;
+  }
 
+  .main-section {
+    float: left;
+    width: 90%;
+    overflow: auto;
+    margin-left: 5%;
+  }
+
+  .sidebar {
+    float: left;
+    overflow: auto;
+    min-width: 87%;
+    margin-left: 5%;
+  }
+
+  header {
+    position: static;
+  }
+
+  #logo {
+    margin-left: 2%;
+  }
+
+  nav {
+    margin-right: 2%;
+  }
   
 }
 
